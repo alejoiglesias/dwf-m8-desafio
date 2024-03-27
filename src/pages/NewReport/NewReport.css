@@ -1,0 +1,18 @@
+.new-report__title {
+  width: 301px;
+  height: 90px;
+  margin-top: 50px;
+  margin-bottom: 22px;
+}
+
+.new-report__info {
+  width: 266px;
+  height: 45px;
+  margin-bottom: 97px;
+}
+
+.new-report__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -1,0 +1,12 @@
+.edit-report__title {
+  width: 301px;
+  height: 90px;
+  margin-top: 50px;
+  margin-bottom: 88px;
+}
+
+.edit-report__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

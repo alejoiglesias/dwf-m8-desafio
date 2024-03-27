@@ -1,0 +1,17 @@
+.form__container {
+  display: flex;
+  column-gap: 5px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.form__link {
+  margin-bottom: 30px;
+  color: #5a8fec;
+  cursor: pointer;
+}
+
+.form__button {
+  width: 335px;
+  margin-bottom: 80px;
+}

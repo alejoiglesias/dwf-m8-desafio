@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ESNext",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "noUncheckedIndexedAccess": true
+  },
+  "include": ["src/**/*.tsx", "src/**/*.ts", "custom.d.ts"]
+}

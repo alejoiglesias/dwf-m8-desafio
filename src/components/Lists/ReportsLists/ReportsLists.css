@@ -1,0 +1,36 @@
+.reports__title {
+  width: 301px;
+  margin-top: 50px;
+}
+
+.reports__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reports__info {
+  width: 266px;
+  height: 45px;
+  margin-top: 17px;
+  margin-bottom: 80px;
+}
+
+.reports__img {
+  width: 305px;
+  height: 231px;
+  margin-bottom: 104px;
+}
+
+.reports__button {
+  width: 335px;
+  margin-bottom: 80px;
+}
+
+.reports__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  margin-top: 50px;
+  margin-bottom: 64px;
+}

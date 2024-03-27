@@ -1,0 +1,35 @@
+.auth__img {
+  width: 340.3px;
+  height: 205px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.auth__title {
+  width: 301px;
+  height: 48px;
+  margin-bottom: 25px;
+}
+
+.auth__info {
+  width: 266px;
+  height: 45px;
+  margin-bottom: 30px;
+}
+
+.auth__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.auth__container {
+  display: flex;
+  column-gap: 5px;
+  margin-bottom: 80px;
+}
+
+.auth__link {
+  color: #5a8fec;
+  cursor: pointer;
+}

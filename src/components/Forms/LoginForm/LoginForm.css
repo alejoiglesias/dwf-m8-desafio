@@ -1,0 +1,16 @@
+.form__error {
+  width: 335px;
+  margin-bottom: 30px;
+  color: #eb6372;
+}
+
+.form__link {
+  margin-bottom: 120px;
+  color: #5a8fec;
+  cursor: pointer;
+}
+
+.form__button {
+  width: 335px;
+  margin-bottom: 80px;
+}

@@ -1,0 +1,41 @@
+.report {
+  display: flex;
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(2.5px);
+  background: rgba(230, 244, 241, 0.05);
+}
+
+.report__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 314px;
+  height: 631px;
+  border-radius: 10px;
+  background-color: #26302e;
+}
+
+.report__close {
+  margin-top: 14px;
+  margin-right: 14px;
+  margin-left: 284px;
+  cursor: pointer;
+}
+
+.report__title {
+  width: 273px;
+  margin-bottom: 7px;
+  color: #fff;
+}
+
+.report--hidden {
+  display: none;
+}

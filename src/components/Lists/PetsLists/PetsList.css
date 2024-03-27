@@ -1,0 +1,7 @@
+.pets__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 35px;
+  margin-top: 50px;
+  margin-bottom: 64px;
+}

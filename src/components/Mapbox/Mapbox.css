@@ -1,0 +1,18 @@
+.mapbox__map {
+  width: 334.965px;
+  height: 253px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+}
+
+.mapbox__text {
+  width: 285px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.mapbox__geocoder {
+  width: 335px;
+  height: 50px;
+  margin-bottom: 50px;
+}

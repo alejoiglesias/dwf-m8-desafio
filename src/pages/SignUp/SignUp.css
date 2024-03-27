@@ -1,0 +1,18 @@
+.signup__title {
+  width: 301px;
+  height: 48px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.signup__info {
+  width: 266px;
+  height: 45px;
+  margin-bottom: 82px;
+}
+
+.signup__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

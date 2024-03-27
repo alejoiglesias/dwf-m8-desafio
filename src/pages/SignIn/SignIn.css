@@ -1,0 +1,18 @@
+.signin__title {
+  width: 301px;
+  height: 48px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.signin__info {
+  width: 266px;
+  height: 45px;
+  margin-bottom: 116px;
+}
+
+.signin__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

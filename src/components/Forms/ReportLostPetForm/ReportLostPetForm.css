@@ -1,0 +1,39 @@
+.report__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.report__label {
+  width: 275px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Poppins";
+  text-transform: uppercase;
+}
+
+.report__input {
+  box-sizing: border-box;
+  width: 277px;
+  height: 155px;
+  margin-bottom: 25px;
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+  background: #4a5553;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Poppins";
+  text-transform: uppercase;
+}
+
+.report__button {
+  width: 276px;
+  margin-bottom: 28px;
+}

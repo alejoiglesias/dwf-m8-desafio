@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap");
+@import url("https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css");
+@import url("https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.css");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+  min-width: 365px;
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.mapboxgl-ctrl-geocoder--input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Poppins";
+  text-transform: uppercase;
+}
+
+.mapboxgl-ctrl-geocoder--input:focus {
+  outline: auto !important;
+}
+
+.mapboxgl-ctrl-geocoder--input::placeholder {
+  color: transparent !important;
+}
+
+@media screen and (min-width: 640px) {
+  .mapboxgl-ctrl-geocoder.mapboxgl-ctrl-geocoder--collapsed {
+    width: 50px !important;
+    min-width: 50px !important;
+  }
+
+  .mapboxgl-ctrl-geocoder {
+    width: 100% !important;
+    max-width: unset !important;
+    font-size: 18px !important;
+    line-height: 24px !important;
+  }
+
+  .mapboxgl-ctrl-geocoder .suggestions {
+    font-size: 15px !important;
+  }
+
+  .mapboxgl-ctrl-geocoder--icon-close {
+    width: 20px !important;
+    height: 20px !important;
+    margin-top: 8px !important;
+    margin-right: 3px !important;
+  }
+
+  .mapboxgl-ctrl-geocoder--icon-geolocate {
+    width: 22px !important;
+    height: 22px !important;
+    margin-top: 6px !important;
+    margin-right: 3px !important;
+  }
+
+  .mapboxgl-ctrl-geocoder--icon-search {
+    position: absolute !important;
+    top: 13px !important;
+    left: 12px !important;
+    width: 23px !important;
+    height: 23px !important;
+  }
+
+  .mapboxgl-ctrl-geocoder--input {
+    height: 50px !important;
+    padding: 6px 45px !important;
+  }
+
+  .mapboxgl-ctrl-geocoder--icon-loading {
+    width: 26px !important;
+    height: 26px !important;
+    margin-top: 5px !important;
+    margin-right: 0px !important;
+  }
+
+  .mapbox-gl-geocoder--error {
+    padding: unset !important;
+    color: unset !important;
+    font-size: unset !important;
+    text-align: unset !important;
+  }
+
+  .mapboxgl-ctrl-geocoder--powered-by {
+    font-size: 13px !important;
+  }
+}
